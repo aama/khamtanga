@@ -1,6 +1,9 @@
 {
 :lang :khamtanga
 :sgpref "khm"
+:datasource "Appleyard1987a Appleyard1987b"
+:geodemoURL "http://www.ethnologue.com/language/xan"
+:geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
 :schemata {
 :case [:Absolutive, :Comitative, :Compound, :Locative, :Object, :Oblique-posessive, :Possessive, :Relative, :Subject]
 	  :clauseType [:Main, :RelOblique, :RelSubj, :SubAdv]
@@ -935,7 +938,7 @@
 	    [:Masc, :Singular, :Person3, "zíy"],
 	    [:Fem, :Singular, :Person3, "zíyɨr"]]
     }
-    {:label "khamtanga-VSubAdvAffCoTemp Conj4-ziy"
+    {:label "khamtanga-VSubAdvAffCoTempConj4-ziy"
     :note "Appleyard1987 4.2.5.2"
     :common {:clauseType :SubAdv,
 	    :conjClass :Conjugation4,
@@ -1363,7 +1366,7 @@
 	    [:Common, :Plural, :Person2, "kärayrnâk’ɨm"],
 	    [:Fem, :Singular, :Person3, "kärayrây(ɨ)m"]]
     }
-    {:label "khamtanga-VSubAdvAffCoTemp Conj2-qal"
+    {:label "khamtanga-VSubAdvAffCoTempConj2-qal"
     :note "Appleyard1987 4.2.5.2"
     :common {:clauseType :SubAdv,
 	    :conjClass :Conjugation2,
@@ -1377,7 +1380,7 @@
     :terms [[:token]  ;; schema
 	    ["qaldáŋʷ / -dráŋʷ"]]
     }
-    {:label "khamtanga-VSubAdvAffCoTemp Conj1-kab"
+    {:label "khamtanga-VSubAdvAffCoTempConj1-kab"
     :note "Appleyard1987 4.2.5.2"
     :common {:clauseType :SubAdv,
 	    :conjClass :Conjugation1,
@@ -2326,7 +2329,7 @@
 	    [:Masc, :Singular, :Person3, "zɨyáŋʷ"],
 	    [:Fem, :Singular, :Person3, "zɨyráŋʷ"]]
     }
-    {:label "khamtanga-VSubAdvAffCoTemp Conj3-kar"
+    {:label "khamtanga-VSubAdvAffCoTempConj3-kar"
     :note "Appleyard1987 4.2.5.2"
     :common {:clauseType :SubAdv,
 	    :conjClass :Conjugation3,
@@ -2763,7 +2766,7 @@
 	    [:Fem, :Common, :Singular, :Singular, :Person2, "k’äbirây"],
 	    [:Fem, :Common, :Singular, :Plural, :Person1, "k’äbinây"]]
     }
-    {:label "khamtanga-VSubAdvAffCoTemp Conj5a-xwa"
+    {:label "khamtanga-VSubAdvAffCoTempConj5a-xwa"
     :note "Appleyard1987 4.2.5.2"
     :common {:clauseType :SubAdv,
 	    :conjClass :Conjugation5a,

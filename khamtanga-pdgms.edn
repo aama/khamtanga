@@ -2962,7 +2962,7 @@
     :common {:morpheme :ADV,
 	    :pdgmType :Exemplary,
 	    :pos :Adverb}
-    :terms [[:token, :token-gloss]  ;; schema
+    :terms [[:token, :token-note]  ;; schema
 	    ["ɨdɨs ~ ɨdís", "thence"],
 	    ["ɨdɨl", "there"],
 	    ["ɨnɨl ~ ɨníl", "here"],
@@ -3012,7 +3012,7 @@
     :common {:morpheme :NUMERAL,
 	    :morphClass :Numeral,
 	    :pos :Noun}
-    :terms [[:numClass, :token, :token-numGloss]  ;; schema
+    :terms [[:numClass, :token, :token-note]  ;; schema
 	    [:Ordinal, "s’áyc̆’äntɨrna", "9"],
 	    [:Ordinal, "sízäntɨrna", "4"],
 	    [:Cardinal, "sâwta", "8"],

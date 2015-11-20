@@ -5,7 +5,7 @@
 :geodemoURL "http://www.ethnologue.com/language/xan"
 :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
 :schemata {
-:case [:Absolutive, :Comitative, :Compound, :Locative, :Object, :Oblique-posessive, :Possessive, :Relative, :Subject]
+:case [:Absolutive, :Comitative, :Compound, :Locative, :Object, :ObliquePossessive, :Possessive, :Relative, :Subject]
 	  :clauseType [:Main, :RelOblique, :RelSubj, :SubAdv]
 	  :conjClass [:Conjugation1, :Conjugation2, :Conjugation3, :Conjugation4, :Conjugation5a, :Conjugation5b]
 	  :defClass [:Common, :Definite, :Indefinite]
@@ -2996,21 +2996,21 @@
 	    :proClass :Independent1}
     :terms [[:case, :gender, :number, :person, :token]  ;; schema
 	    [:Subject, :Common, :Plural, :Person2, "kítɨn"],
-	    [:Oblique-posessive, :Common, :Singular, :Person2, "kɨ-"],
+	    [:ObliquePossessive, :Common, :Singular, :Person2, "kɨ-"],
 	    [:Subject, :Common, :Plural, :Person3, "ŋáy"],
 	    [:Subject, :Common, :Singular, :Person1, "án ~ yán"],
-	    [:Oblique-posessive, :Common, :Plural, :Person3, "ŋata ~ ŋatä-/"],
+	    [:ObliquePossessive, :Common, :Plural, :Person3, "ŋata ~ ŋatä-/"],
 	    [:Subject, :Masc, :Singular, :Person3, "ŋâŋ"],
-	    [:Oblique-posessive, :Common, :Plural, :Person2, "kɨta ~ kɨtä-"],
-	    [:Oblique-posessive, :Masc, :Singular, :Person3, "Common"],
+	    [:ObliquePossessive, :Common, :Plural, :Person2, "kɨta ~ kɨtä-"],
+	    [:ObliquePossessive, :Masc, :Singular, :Person3, "Common"],
 	    [:Subject, :Fem, :Singular, :Person3, "ŋí ~ ŋɨr"],
-	    [:Oblique-posessive, :Common, :Singular, :Person1, "yɨ-"],
-	    [:Oblique-posessive, :Common, :Plural, :Person3, "ŋa-"],
+	    [:ObliquePossessive, :Common, :Singular, :Person1, "yɨ-"],
+	    [:ObliquePossessive, :Common, :Plural, :Person3, "ŋa-"],
 	    [:Subject, :Common, :Plural, :Person1, "yɨn"],
 	    [:Subject, :Common, :Singular, :Person2, "kɨt"],
-	    [:Oblique-posessive, :Common, :Plural, :Person3, "ŋita ~ ŋitä-/ "],
-	    [:Oblique-posessive, :Common, :Plural, :Person1, "yɨna ~ yɨnä"],
-	    [:Oblique-posessive, :Fem, :Singular, :Person3, "ŋi- ~ ŋɨr-"]]
+	    [:ObliquePossessive, :Common, :Plural, :Person3, "ŋita ~ ŋitä-/ "],
+	    [:ObliquePossessive, :Common, :Plural, :Person1, "yɨna ~ yɨnä"],
+	    [:ObliquePossessive, :Fem, :Singular, :Person3, "ŋi- ~ ŋɨr-"]]
     }
     {:label "khamtanga-NNumeral"
     :note "Appleyard1987 3.4"

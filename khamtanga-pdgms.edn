@@ -5,25 +5,21 @@
 :datasource "Appleyard1987a Appleyard1987b"
 :geodemoURL "http://www.ethnologue.com/language/xan"
 :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
-:schemata{:gender [:Common :Fem :Masc :Polite],
-          :genderHead [:HeadCommon :HeadFem :HeadMasc],
-          :stemClass [:Common :Consonant :Vowel :kinship],
-          :numClass [:Cardinal :Ordinal],
-          :pdgmType [:Numeral :Finite :NA :Exemplary]
-          :polarity [:Affirmative :Negative],
-          :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
-          :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
-          :pluralClass [:Alternate :Gemination :Suffix :Suffixation :a-deletion :c-ablaut],
-          :pos [:Adjective :Adverb :Noun :Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :numHead [:HeadPlural :HeadSingular],
-          :morphClass [:Numeral],
-          :proClass [:Demonstrative :Independent1 :Independent2 :Interrogative],
-          :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal],
-          :clauseType [:Main :RelOblique :RelSubj :SubAdv],
-          :number [:Plural :Singular],
-          :deixis [:Far :Near],
-          :defClass [:Common :Definite :Indefinite]}
+ :schemata {:case [:Absolutive  :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
+            :clauseType [:Main :RelOblique :RelSubj :SubAdv],
+            :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
+            :deixis [:Far :Near],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :numClass [:Cardinal :Ordinal],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Noun :Pronoun :Verb],
+            :proClass [:Demonstrative :Independent1 :Independent2 :Interrogative :Adverbial],
+            :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal]
+            :pdgmType [:Finite :Numeral :FiniteCopula :PRO]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :clauseType :defClass :deixis :derivedStem :numClass :pluralClass :polarity :pos :proClass :tam :tenseName],
           :inflClass [:conjClass :stemClass],
@@ -3097,14 +3093,44 @@
             [:Plural :Person2 :Common "_NULL"],
             [:Plural :Person3 :Common "_NULL"]]
     }
+    {:label "khamtanga-VAffCopExst"
+    :note "Appleyard1987 4.2.8.2"
+    :pdgmType :FiniteCopula
+    :common {:polarity :Affirmative,
+             :lexeme :COPULA
+             :pos :Verb,
+             :tam :CopulaExist}
+    :terms [[:number :person :gender :token],
+            [:Singular :Person1 :Common "ɨkʷún"],
+            [:Singular :Person2 :Common "ɨkʷɨrú / ɨkʷrú"],
+            [:Singular :Person3 :Masc "ɨkʷú"],
+            [:Singular :Person3 :Fem "ɨkʷɨc̆ / ɨkʷɨc̆"],
+            [:Plural :Person1 :Common "ɨkʷɨnún / ɨkʷnún"],
+            [:Plural :Person2 :Common "ɨkʷɨrnu"],
+            [:Plural :Person3 :Common "ɨkʷúŋ"]]
+    }
+    {:label "khamtanga-VNegCopExst"
+    :note "Appleyard1987 4.2.8.2"
+    :pdgmType :FiniteCopula
+    :common {:polarity :Negative,
+             :lex :COPULA
+             :pos :Verb,
+             :tam :CopulaExist}
+    :terms [[:number :person :gender :token],
+            [:Singular :Person1 :Common "ɨjârɨm"],
+            [:Singular :Person2 :Common "ɨjɨrârɨm"],
+            [:Singular :Person3 :Masc "ɨjâwm"],
+            [:Singular :Person3 :Fem "ɨjɨrâym"],
+            [:Plural :Person1 :Common "ɨjɨnâk’ɨm"],
+            [:Plural :Person2 :Common "ɨjɨrnâk’ɨm"],
+            [:Plural :Person3 :Common "ɨjâk’ʷɨm"]]
+    }
 ]
 :muterms [
     {:label "khamtanga-NNumeral"
-    :note "Appleyard1987 3.4"
+    :note "Appleyard1987.4"
     :pdgmType :Numeral
-    :common {:morpheme :NUMERAL,
-             :morphClass :Numeral,
-             :pos :Noun}
+    :common { :pos :Noun}
     :terms [[:numClass :token-note :token],
             [:Cardinal "1" "lâw ~ láy ~ lâwa"],
             [:Cardinal "10" "s’ɨk’a"],
@@ -3139,10 +3165,9 @@
     }
     {:label "khamtanga-PAdv"
     :note "Appleyard1987 3.3.3"
-    :pdgmType :Exemplary
-    :common {:morpheme :ADV,
-             :pdgmType :Exemplary,
-             :pos :Adverb}
+    :pdgmType :PRO
+    :common {:proClass :Adverbial
+             :pos :Pronoun}
     :terms [[:token-note :token],
             ["hence" "ɨnɨs"],
             ["here" "ɨnɨl ~ ɨníl"],
@@ -3152,9 +3177,8 @@
     }
     {:label "khamtanga-PDem"
     :note "Appleyard1987 3.3.3"
-    :pdgmType :NA
-    :common {:morpheme :DEM,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:deixis :number :gender :token],
             [:Far :Singular :Masc "ɨd ~ ɨdín ~ ɨdyâ"],
@@ -3166,9 +3190,8 @@
     }
     {:label "khamtanga-PInd1"
     :note "Appleyard1987 3.3.1"
-    :pdgmType :NA
-    :common {:morpheme :PRO1,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent1}
     :terms [[:case :number :person :gender :token],
             [:ObliquePossessive :Singular :Person1 :Common "yɨ-"],
@@ -3190,9 +3213,8 @@
     }
     {:label "khamtanga-PInd2"
     :note "Appleyard1987 3.3.1"
-    :pdgmType :NA
-    :common {:morpheme :PRO2,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent2}
     :terms [[:case :number :person :gender :token],
             [:Comitative :Singular :Person1 :Common "yɨjɨg"],
@@ -3247,9 +3269,8 @@
     }
     {:label "khamtanga-PInterrogPers"
     :note "Appleyard1987 3.3.2"
-    :pdgmType :NA
-    :common {:morpheme :PROINTERROG,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Interrogative}
     :terms [[:case :token],
             [:Absolutive "áw"],
@@ -3258,38 +3279,6 @@
             [:Object "áwt"],
             [:Possessive "áwt"],
             [:Relative "áws ~ áwtɨs ~ áwtɨgɨs"]]
-    }
-    {:label "khamtanga-VAffCopExst"
-    :note "Appleyard1987 4.2.8.2"
-    :pdgmType :Finite
-    :common {:morpheme :COPULAAFF,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :CopulaExist}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ɨkʷún"],
-            [:Singular :Person2 :Common "ɨkʷɨrú / ɨkʷrú"],
-            [:Singular :Person3 :Masc "ɨkʷú"],
-            [:Singular :Person3 :Fem "ɨkʷɨc̆ / ɨkʷɨc̆"],
-            [:Plural :Person1 :Common "ɨkʷɨnún / ɨkʷnún"],
-            [:Plural :Person2 :Common "ɨkʷɨrnu"],
-            [:Plural :Person3 :Common "ɨkʷúŋ"]]
-    }
-    {:label "khamtanga-VNegCopExst"
-    :note "Appleyard1987 4.2.8.2"
-    :pdgmType :Finite
-    :common {:morpheme :COPULANEG,
-             :polarity :Negative,
-             :pos :Verb,
-             :tam :CopulaExist}
-    :terms [[:number :person :gender :token],
-            [:Singular :Person1 :Common "ɨjârɨm"],
-            [:Singular :Person2 :Common "ɨjɨrârɨm"],
-            [:Singular :Person3 :Masc "ɨjâwm"],
-            [:Singular :Person3 :Fem "ɨjɨrâym"],
-            [:Plural :Person1 :Common "ɨjɨnâk’ɨm"],
-            [:Plural :Person2 :Common "ɨjɨrnâk’ɨm"],
-            [:Plural :Person3 :Common "ɨjâk’ʷɨm"]]
     }
 ]
 }

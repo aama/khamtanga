@@ -5,7 +5,8 @@
 :datasource "Appleyard1987a Appleyard1987b"
 :geodemoURL "http://www.ethnologue.com/language/xan"
 :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
- :schemata {:case [:Absolutive  :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
+ :schemata {nmorphClass [:Numeral ],
+            :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
             :clauseType [:Main :RelOblique :RelSubj :SubAdv],
             :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
             :deixis [:Far :Near],
@@ -17,9 +18,9 @@
             :person [:Person1 :Person2 :Person3],
             :polarity [:Affirmative :Negative],
             :pos [:Noun :Pronoun :Verb],
-            :proClass [:Demonstrative :Independent1 :Independent2 :Interrogative :Adverbial],
+            :proClass [:Adverbial :Demonstrative :Independent1 :Independent2 :Interrogative],
             :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal]
-            :pdgmType [:Finite :Numeral :FiniteCopula :PRO]}
+            :pdgmType [:Finite :FiniteCopula :PRO :NOM]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :clauseType :defClass :deixis :derivedStem :numClass :pluralClass :polarity :pos :proClass :tam :tenseName],
           :inflClass [:conjClass :stemClass],
@@ -3113,7 +3114,7 @@
     :note "Appleyard1987 4.2.8.2"
     :pdgmType :FiniteCopula
     :common {:polarity :Negative,
-             :lex :COPULA
+             :lexeme :COPULA
              :pos :Verb,
              :tam :CopulaExist}
     :terms [[:number :person :gender :token],
@@ -3129,8 +3130,9 @@
 :muterms [
     {:label "khamtanga-NNumeral"
     :note "Appleyard1987.4"
-    :pdgmType :Numeral
-    :common { :pos :Noun}
+    :pdgmType :NOM
+    :common { :nmorphClass :Numeral
+             :pos :Noun}
     :terms [[:numClass :token-note :token],
             [:Cardinal "1" "lâw ~ láy ~ lâwa"],
             [:Cardinal "10" "s’ɨk’a"],

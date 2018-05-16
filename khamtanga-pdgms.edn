@@ -20,7 +20,7 @@
            :pos [:Noun :Pronoun :Verb],
            :proClass [:Adverbial :Demonstrative :Independent1 :Independent2 :Interrogative],
            :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal]
-           :vmorphclass [:Finite  :FiniteCopula]
+           :vmorphClass [:Finite  :FiniteCopula]
            }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :clauseType :defClass :deixis :derivedStem :numClass :pluralClass :polarity :pos :proClass :tam :tenseName],
@@ -37,7 +37,7 @@
  :termclusters [
                 {:label "khamtanga-VMainAffFutConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -55,7 +55,7 @@
                  }
                 {:label "khamtanga-VMainAffFutConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -73,7 +73,7 @@
                  }
                 {:label "khamtanga-VMainAffFutConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -91,7 +91,7 @@
                  }
                 {:label "khamtanga-VMainAffFutConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -109,7 +109,7 @@
                  }
                 {:label "khamtanga-VMainAffFutConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -127,7 +127,7 @@
                  }
                 {:label "khamtanga-VMainAffFutConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -145,7 +145,7 @@
                  }
                 {:label "khamtanga-VMainAffImprtvConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :gender :Common,
@@ -160,7 +160,7 @@
                  }
                 {:label "khamtanga-VMainAffImprtvConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :gender :Common,
@@ -175,7 +175,7 @@
                  }
                 {:label "khamtanga-VMainAffImprtvConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :gender :Common,
@@ -190,7 +190,7 @@
                  }
                 {:label "khamtanga-VMainAffImprtvConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :gender :Common,
@@ -205,7 +205,7 @@
                  }
                 {:label "khamtanga-VMainAffImprtvConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :gender :Common,
@@ -220,7 +220,7 @@
                  }
                 {:label "khamtanga-VMainAffImprtvConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :gender :Common,
@@ -235,7 +235,7 @@
                  }
                 {:label "khamtanga-VMainAffJussConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -251,7 +251,7 @@
                  }
                 {:label "khamtanga-VMainAffJussConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -267,7 +267,7 @@
                  }
                 {:label "khamtanga-VMainAffJussConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -283,7 +283,7 @@
                  }
                 {:label "khamtanga-VMainAffJussConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -299,7 +299,7 @@
                  }
                 {:label "khamtanga-VMainAffJussConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -315,7 +315,7 @@
                  }
                 {:label "khamtanga-VMainAffPastConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -333,7 +333,7 @@
                  }
                 {:label "khamtanga-VMainAffPastConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -351,7 +351,7 @@
                  }
                 {:label "khamtanga-VMainAffPastConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -369,7 +369,7 @@
                  }
                 {:label "khamtanga-VMainAffPastConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -387,7 +387,7 @@
                  }
                 {:label "khamtanga-VMainAffPastConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -405,7 +405,7 @@
                  }
                 {:label "khamtanga-VMainAffPastConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -423,7 +423,7 @@
                  }
                 {:label "khamtanga-VMainAffPresConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -441,7 +441,7 @@
                  }
                 {:label "khamtanga-VMainAffPresConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -459,7 +459,7 @@
                  }
                 {:label "khamtanga-VMainAffPresConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -477,7 +477,7 @@
                  }
                 {:label "khamtanga-VMainAffPresConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -495,7 +495,7 @@
                  }
                 {:label "khamtanga-VMainAffPresConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -513,7 +513,7 @@
                  }
                 {:label "khamtanga-VMainAffPresConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -531,7 +531,7 @@
                  }
                 {:label "khamtanga-VMainNegImprtvConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :gender :Common,
@@ -546,7 +546,7 @@
                  }
                 {:label "khamtanga-VMainNegImprtvConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :gender :Common,
@@ -561,7 +561,7 @@
                  }
                 {:label "khamtanga-VMainNegImprtvConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :gender :Common,
@@ -576,7 +576,7 @@
                  }
                 {:label "khamtanga-VMainNegImprtvConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :gender :Common,
@@ -591,7 +591,7 @@
                  }
                 {:label "khamtanga-VMainNegImprtvConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :gender :Common,
@@ -606,7 +606,7 @@
                  }
                 {:label "khamtanga-VMainNegImprtvConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :gender :Common,
@@ -621,7 +621,7 @@
                  }
                 {:label "khamtanga-VMainNegJussConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -636,7 +636,7 @@
                  }
                 {:label "khamtanga-VMainNegJussConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -651,7 +651,7 @@
                  }
                 {:label "khamtanga-VMainNegJussConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -666,7 +666,7 @@
                  }
                 {:label "khamtanga-VMainNegJussConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -681,7 +681,7 @@
                  }
                 {:label "khamtanga-VMainNegJussConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -696,7 +696,7 @@
                  }
                 {:label "khamtanga-VMainNegJussConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -712,7 +712,7 @@
                  }
                 {:label "khamtanga-VMainNegPastConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -730,7 +730,7 @@
                  }
                 {:label "khamtanga-VMainNegPastConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -748,7 +748,7 @@
                  }
                 {:label "khamtanga-VMainNegPastConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -766,7 +766,7 @@
                  }
                 {:label "khamtanga-VMainNegPastConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -784,7 +784,7 @@
                  }
                 {:label "khamtanga-VMainNegPastConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -802,7 +802,7 @@
                  }
                 {:label "khamtanga-VMainNegPastConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -820,7 +820,7 @@
                  }
                 {:label "khamtanga-VMainNegPresConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -838,7 +838,7 @@
                  }
                 {:label "khamtanga-VMainNegPresConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -856,7 +856,7 @@
                  }
                 {:label "khamtanga-VMainNegPresConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -874,7 +874,7 @@
                  }
                 {:label "khamtanga-VMainNegPresConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -892,7 +892,7 @@
                  }
                 {:label "khamtanga-VMainNegPresConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -910,7 +910,7 @@
                  }
                 {:label "khamtanga-VMainNegPresConj5b-fi"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -928,7 +928,7 @@
                  }
                 {:label "khamtanga-VMainNegPresFutConj1-kab"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -946,7 +946,7 @@
                  }
                 {:label "khamtanga-VMainNegPresFutConj2-qal"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -964,7 +964,7 @@
                  }
                 {:label "khamtanga-VMainNegPresFutConj3-kar"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -982,7 +982,7 @@
                  }
                 {:label "khamtanga-VMainNegPresFutConj4-ziy"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1000,7 +1000,7 @@
                  }
                 {:label "khamtanga-VMainNegPresFutConj5a-xwa"
                  :note "Appleyard1987 4.2.4"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1018,7 +1018,7 @@
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj1-kab"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1050,7 +1050,7 @@
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj2-qal"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1082,7 +1082,7 @@
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj3-kar"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1114,7 +1114,7 @@
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj4-ziy"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1146,7 +1146,7 @@
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj5a-xwa"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1178,7 +1178,7 @@
                  }
                 {:label "khamtanga-VRelObliqueNegPastConj1-kab"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1210,7 +1210,7 @@
                  }
                 {:label "khamtanga-VRelObliqueNegPresFutConj1-kab"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1242,7 +1242,7 @@
                  }
                 {:label "khamtanga-VRelSubjAffGenConj1-kab"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1260,7 +1260,7 @@
                  }
                 {:label "khamtanga-VRelSubjAffGenConj2-qal"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1278,7 +1278,7 @@
                  }
                 {:label "khamtanga-VRelSubjAffGenConj3-kar"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1296,7 +1296,7 @@
                  }
                 {:label "khamtanga-VRelSubjAffGenConj4-ziy"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1314,7 +1314,7 @@
                  }
                 {:label "khamtanga-VRelSubjAffGenConj5a-xwa"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1332,7 +1332,7 @@
                  }
                 {:label "khamtanga-VRelSubjAffGenConj5b-fi"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -1350,7 +1350,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPastConj1-kab"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1368,7 +1368,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPastConj2-qal"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1386,7 +1386,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPastConj3-kar"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1404,7 +1404,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPastConj4-ziy"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1422,7 +1422,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPastConj5a-xwa"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1440,7 +1440,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj1-kab"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1458,7 +1458,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj2-qal"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1476,7 +1476,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj3-kar"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1494,7 +1494,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj4-ziy"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1512,7 +1512,7 @@
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj5a-xwa"
                  :note "Appleyard1987 4.2.5.1"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1530,7 +1530,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1548,7 +1548,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1566,7 +1566,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1584,7 +1584,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1602,7 +1602,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1620,7 +1620,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conjugation1,
@@ -1635,7 +1635,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1651,7 +1651,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conjugation2,
@@ -1666,7 +1666,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1682,7 +1682,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conjugation3,
@@ -1697,7 +1697,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1713,7 +1713,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1729,7 +1729,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conjugation4,
@@ -1744,7 +1744,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conjugation5a,
@@ -1759,7 +1759,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1775,7 +1775,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCompPastGerConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1793,7 +1793,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1811,7 +1811,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1829,7 +1829,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1847,7 +1847,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1865,7 +1865,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1883,7 +1883,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1901,7 +1901,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -1919,7 +1919,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -1937,7 +1937,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -1955,7 +1955,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -1973,7 +1973,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -1991,7 +1991,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2009,7 +2009,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2027,7 +2027,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2045,7 +2045,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2063,7 +2063,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2081,7 +2081,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2099,7 +2099,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2117,7 +2117,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2135,7 +2135,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2153,7 +2153,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2171,7 +2171,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2189,7 +2189,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2207,7 +2207,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2225,7 +2225,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2243,7 +2243,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj5b-fi"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -2261,7 +2261,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2279,7 +2279,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2297,7 +2297,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2315,7 +2315,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2333,7 +2333,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2351,7 +2351,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj5b-fi"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -2369,7 +2369,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2387,7 +2387,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2405,7 +2405,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2423,7 +2423,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2441,7 +2441,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2459,7 +2459,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPresInterrogConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2477,7 +2477,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2495,7 +2495,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2513,7 +2513,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2531,7 +2531,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2549,7 +2549,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2567,7 +2567,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj5b-fi"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5b,
                           :lexeme :fi,
@@ -2585,7 +2585,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2603,7 +2603,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2621,7 +2621,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2639,7 +2639,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2657,7 +2657,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2675,7 +2675,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2693,7 +2693,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2711,7 +2711,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2729,7 +2729,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2747,7 +2747,7 @@
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2765,7 +2765,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegComparativeConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2783,7 +2783,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegComparativeConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2801,7 +2801,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegComparativeConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2819,7 +2819,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2837,7 +2837,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2855,7 +2855,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2873,7 +2873,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2891,7 +2891,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2909,7 +2909,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -2927,7 +2927,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -2945,7 +2945,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -2963,7 +2963,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -2981,7 +2981,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -2999,7 +2999,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj1-kab"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
                           :lexeme :kab,
@@ -3017,7 +3017,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj2-qal"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
                           :lexeme :qal,
@@ -3035,7 +3035,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj3-kar"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
                           :lexeme :kar,
@@ -3053,7 +3053,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj4-ziy"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
                           :lexeme :ziy,
@@ -3071,7 +3071,7 @@
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj5a-xwa"
                  :note "Appleyard1987 4.2.5.2"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
                           :lexeme :xwa,
@@ -3089,7 +3089,7 @@
                  }
                 {:label "khamtanga-VAffCopExst"
                  :note "Appleyard1987 4.2.8.2"
-                 :common {:vmorphclass :FiniteCopula
+                 :common {:vmorphClass :FiniteCopula
                           :polarity :Affirmative,
                           :lexeme :COPULA
                           :pos :Verb,
@@ -3105,7 +3105,7 @@
                  }
                 {:label "khamtanga-VNegCopExst"
                  :note "Appleyard1987 4.2.8.2"
-                 :common {:vmorphclass :FiniteCopula
+                 :common {:vmorphClass :FiniteCopula
                           :polarity :Negative,
                           :lexeme :COPULA
                           :pos :Verb,

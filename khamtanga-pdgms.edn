@@ -5,23 +5,25 @@
  :datasource "Appleyard1987a Appleyard1987b"
  :geodemoURL "http://www.ethnologue.com/language/xan"
  :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
-:schemata {:case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
-           :clauseType [:Main :RelOblique :RelSubj :SubAdv],
-           :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
-           :deixis [:Far :Near],
-           :gender [:Common :Fem :Masc],
-           :genderHead [:HeadCommon :HeadFem :HeadMasc],
-           :nmorphClass [:Numeral],
-           :numClass [:Cardinal :Ordinal],
-           :numHead [:HeadPlural :HeadSingular],
-           :number [:Plural :Singular],
-           :person [:Person1 :Person2 :Person3],
-           :polarity [:Affirmative :Negative],
-           :pos [:Noun :Pronoun :Verb],
-           :proClass [:Adverbial :Demonstrative :Independent1 :Independent2 :Interrogative],
-           :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal]
-           :vmorphClass [:Finite  :FiniteCopula]
-           }
+:schemata {:lexeme [:fi  :kab :kar :qal :xwa :ziy],
+ :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
+ :clauseType [:Main :RelOblique :RelSubj :SubAdv],
+ :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
+ :deixis [:Far :Near],
+ :gender [:Common :Fem :Masc],
+ :genderHead [:HeadCommon :HeadFem :HeadMasc],
+ :nmorphClass [:Numeral],
+ :numClass [:Cardinal :Ordinal],
+ :numHead [:HeadPlural :HeadSingular],
+ :number [:Plural :Singular],
+ :person [:Person1 :Person2 :Person3],
+ :pmorphClass [:ProMorph],
+ :polarity [:Affirmative :Negative],
+ :pos [:Noun :Pronoun :Verb],
+ :proClass [:Adverbial :Demonstrative :Independent1 :Independent2 :Interrogative],
+ :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal],
+ :vmorphClass [:Finite :FiniteCopula]
+ }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :clauseType :defClass :deixis :derivedStem :numClass :pluralClass :polarity :pos :proClass :tam :tenseName],
           :inflClass [:conjClass :stemClass],
@@ -3091,7 +3093,6 @@
                  :note "Appleyard1987 4.2.8.2"
                  :common {:vmorphClass :FiniteCopula
                           :polarity :Affirmative,
-                          :lexeme :COPULA
                           :pos :Verb,
                           :tam :CopulaExist}
                  :terms [[:number :person :gender :token],
@@ -3107,7 +3108,6 @@
                  :note "Appleyard1987 4.2.8.2"
                  :common {:vmorphClass :FiniteCopula
                           :polarity :Negative,
-                          :lexeme :COPULA
                           :pos :Verb,
                           :tam :CopulaExist}
                  :terms [[:number :person :gender :token],
@@ -3168,7 +3168,7 @@
                  }
                 {:label "khamtanga-PDem"
                  :note "Appleyard1987 3.3.3"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:deixis :number :gender :token],
                          [:Far :Singular :Masc "ɨd ~ ɨdín ~ ɨdyâ"],
@@ -3180,7 +3180,7 @@
                  }
                 {:label "khamtanga-PInd1"
                  :note "Appleyard1987 3.3.1"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent1}
                  :terms [[:case :number :person :gender :token],
                          [:ObliquePossessive :Singular :Person1 :Common "yɨ-"],
@@ -3202,7 +3202,7 @@
                  }
                 {:label "khamtanga-PInd2"
                  :note "Appleyard1987 3.3.1"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent2}
                  :terms [[:case :number :person :gender :token],
                          [:Comitative :Singular :Person1 :Common "yɨjɨg"],
@@ -3257,7 +3257,7 @@
                  }
                 {:label "khamtanga-PInterrogPers"
                  :note "Appleyard1987 3.3.2"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Interrogative}
                  :terms [[:case :token],
                          [:Absolutive "áw"],

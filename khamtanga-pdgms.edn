@@ -5,8 +5,7 @@
  :datasource "Appleyard1987a Appleyard1987b"
  :geodemoURL "http://www.ethnologue.com/language/xan"
  :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
-:schemata {:lexeme [:fi  :kab :kar :qal :xwa :ziy],
- :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
+:schemata { :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
  :clauseType [:Main :RelOblique :RelSubj :SubAdv],
  :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
  :deixis [:Far :Near],
@@ -28,14 +27,16 @@
           :synsemClass [:case :clauseType :defClass :deixis :derivedStem :numClass :pluralClass :polarity :pos :proClass :tam :tenseName],
           :inflClass [:conjClass :stemClass],
           :otherClass []}
- :lexemes{:fi {:conjClass :Conjugation5b, :gloss "go out", :lemma "fɨ-", :pos :Verb},
-          :ikw {:gloss "be", :lemma "ɨkʷ-"},
-          :kab {:conjClass :Conjugation1, :gloss "cut", :lemma "käb-", :pos :Verb},
-          :kar {:conjClass :Conjugation3, :gloss "cross", :lemma "kär-", :pos :Verb},
-          :qal {:conjClass :Conjugation2, :gloss "see", :lemma "qal-", :pos :Verb},
-          :xwa {:conjClass :Conjugation5a, :gloss "eat", :lemma "xʷâ/i-", :pos :Verb},
-          :zin {:gender :Masc, :gloss "brother", :lemma "zín", :pos :Noun, :stemClass :kinship},
-          :ziy {:conjClass :Conjugation4, :gloss "drink", :lemma "zɨy-", :pos :Verb}}
+ :lexemes {
+:fi   {:pos :Verb, :lemma "fɨ-", :gloss "go out", :conjClass :Conjugation5b},
+:ikw   {:pos :z, :lemma "ɨkʷ-", :gloss "be", },
+:kab   {:pos :Verb, :lemma "käb-", :gloss "cut", :conjClass :Conjugation1},
+:kar   {:pos :Verb, :lemma "kär-", :gloss "cross", :conjClass :Conjugation3},
+:qal   {:pos :Verb, :lemma "qal-", :gloss "see", :conjClass :Conjugation2},
+:xwa   {:pos :Verb, :lemma "xʷâ/i-", :gloss "eat", :conjClass :Conjugation5a},
+:zin   {:pos :Noun, :lemma "zín", :gloss "brother", :gender :Masc, :stemClass :kinship},
+:ziy   {:pos :Verb, :lemma "zɨy-", :gloss "drink", :conjClass :Conjugation4},
+}
  :termclusters [
                 {:label "khamtanga-VMainAffFutConj1-kab"
                  :note "Appleyard1987 4.2.4"

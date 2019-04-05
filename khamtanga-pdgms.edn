@@ -2,44 +2,44 @@
  :lang :khamtanga
  :subfamily "Agaw"
  :sgpref "khm"
- :datasource "Appleyard1987a Appleyard1987b"
+ :datasource "Appleyard1987a Appleyard1987b; abbrev. A87"
  :geodemoURL "http://www.ethnologue.com/language/xan"
  :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab."
-:schemata { :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
- :clauseType [:Main :RelOblique :RelSubj :SubAdv],
- :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
- :deixis [:Far :Near],
- :gender [:Common :Fem :Masc],
- :genderHead [:HeadCommon :HeadFem :HeadMasc],
- :nmorphClass [:Numeral],
- :numClass [:Cardinal :Ordinal],
- :numHead [:HeadPlural :HeadSingular],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Noun :Pronoun :Verb],
- :proClass [:Adverbial :Demonstrative :Independent1 :Independent2 :Interrogative],
- :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal],
- :vmorphClass [:Finite :FiniteCopula]
- }
+ :schemata { :case [:Absolutive :Comitative :Compound :Locative :Object :ObliquePossessive :Possessive :Relative :Subject],
+            :clauseType [:Main :RelOblique :RelSubj :SubAdv],
+            :conjClass [:Conjugation1 :Conjugation2 :Conjugation3 :Conjugation4 :Conjugation5a :Conjugation5b],
+            :deixis [:Far :Near],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :nmorphClass [:Numeral],
+            :numClass [:Cardinal :Ordinal],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Noun :Pronoun :Verb],
+            :proClass [:Adverbial :Demonstrative :Independent1 :Independent2 :Interrogative],
+            :tam [:Causal :CoTemporal :CompPastGer :Comparative :Conditional1 :Conditional2 :Conditional3 :Consecutive :CopulaExist :Future :General :Gerund :Imperative :Jussive :Past :PastTemporal :Present :PresentFuture :PresentInterrog :Purposive :Purposive2 :Temporal],
+            :vmorphClass [:Finite :FiniteCopula]
+            }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :clauseType :defClass :deixis :derivedStem :numClass :pluralClass :polarity :pos :proClass :tam :tenseName],
           :inflClass [:conjClass :stemClass],
           :otherClass []}
  :lexemes {
-:fi   {:pos :Verb, :lemma "fɨ-", :gloss "go out", :conjClass :Conjugation5b},
-:ikw   {:pos :z, :lemma "ɨkʷ-", :gloss "be", },
-:kab   {:pos :Verb, :lemma "käb-", :gloss "cut", :conjClass :Conjugation1},
-:kar   {:pos :Verb, :lemma "kär-", :gloss "cross", :conjClass :Conjugation3},
-:qal   {:pos :Verb, :lemma "qal-", :gloss "see", :conjClass :Conjugation2},
-:xwa   {:pos :Verb, :lemma "xʷâ/i-", :gloss "eat", :conjClass :Conjugation5a},
-:zin   {:pos :Noun, :lemma "zín", :gloss "brother", :gender :Masc, :stemClass :kinship},
-:ziy   {:pos :Verb, :lemma "zɨy-", :gloss "drink", :conjClass :Conjugation4},
-}
+           :fi   {:pos :Verb, :lemma "fɨ-", :gloss "go out", :conjClass :Conjugation5b},
+           :ikw   {:pos :z, :lemma "ɨkʷ-", :gloss "be", },
+           :kab   {:pos :Verb, :lemma "käb-", :gloss "cut", :conjClass :Conjugation1},
+           :kar   {:pos :Verb, :lemma "kär-", :gloss "cross", :conjClass :Conjugation3},
+           :qal   {:pos :Verb, :lemma "qal-", :gloss "see", :conjClass :Conjugation2},
+           :xwa   {:pos :Verb, :lemma "xʷâ/i-", :gloss "eat", :conjClass :Conjugation5a},
+           :zin   {:pos :Noun, :lemma "zín", :gloss "brother", :gender :Masc, :stemClass :kinship},
+           :ziy   {:pos :Verb, :lemma "zɨy-", :gloss "drink", :conjClass :Conjugation4},
+           }
  :termclusters [
                 {:label "khamtanga-VMainAffFutConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -57,7 +57,7 @@
                          [:Plural :Person3 :Common "k’âbtɨk’ʷ"]]
                  }
                 {:label "khamtanga-VMainAffFutConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -75,7 +75,7 @@
                          [:Plural :Person3 :Common "qáltɨk’ʷ"]]
                  }
                 {:label "khamtanga-VMainAffFutConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -93,7 +93,7 @@
                          [:Plural :Person3 :Common "kârtɨk’ʷ"]]
                  }
                 {:label "khamtanga-VMainAffFutConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -111,7 +111,7 @@
                          [:Plural :Person3 :Common "zɨytɨk’ʷ"]]
                  }
                 {:label "khamtanga-VMainAffFutConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -129,7 +129,7 @@
                          [:Plural :Person3 :Common "xʷâtɨk’ʷ"]]
                  }
                 {:label "khamtanga-VMainAffFutConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -147,7 +147,7 @@
                          [:Plural :Person3 :Common "fɨtɨk’ʷ"]]
                  }
                 {:label "khamtanga-VMainAffImprtvConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -162,7 +162,7 @@
                          [:Plural "k’âbtɨn / k’âtän(u) / k’âbtan(u)"]]
                  }
                 {:label "khamtanga-VMainAffImprtvConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -177,7 +177,7 @@
                          [:Plural "qáltɨn / qáltän(u) / qáltan(u)"]]
                  }
                 {:label "khamtanga-VMainAffImprtvConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -192,7 +192,7 @@
                          [:Plural "kâttɨn / kâttän(u) / kâttan(u)"]]
                  }
                 {:label "khamtanga-VMainAffImprtvConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -207,7 +207,7 @@
                          [:Plural "zɨqtɨn"]]
                  }
                 {:label "khamtanga-VMainAffImprtvConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -222,7 +222,7 @@
                          [:Plural "xʷâtɨn"]]
                  }
                 {:label "khamtanga-VMainAffImprtvConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -237,7 +237,7 @@
                          [:Plural "fɨtɨn"]]
                  }
                 {:label "khamtanga-VMainAffJussConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -253,7 +253,7 @@
                          [:Plural :Person3 :Common "k’äbɨŋ(n)á"]]
                  }
                 {:label "khamtanga-VMainAffJussConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -269,7 +269,7 @@
                          [:Plural :Person3 :Common "qalɨŋ(n)a"]]
                  }
                 {:label "khamtanga-VMainAffJussConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -285,7 +285,7 @@
                          [:Plural :Person3 :Common "kärɨŋ(n)á"]]
                  }
                 {:label "khamtanga-VMainAffJussConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -301,7 +301,7 @@
                          [:Plural :Person3 :Common "zɨyɨŋ(n)á"]]
                  }
                 {:label "khamtanga-VMainAffJussConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -317,7 +317,7 @@
                          [:Plural :Person3 :Common "xʷäŋ(n)á"]]
                  }
                 {:label "khamtanga-VMainAffPastConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -335,7 +335,7 @@
                          [:Plural :Person3 :Common "k’âbuŋ"]]
                  }
                 {:label "khamtanga-VMainAffPastConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -353,7 +353,7 @@
                          [:Plural :Person3 :Common "qáluŋ"]]
                  }
                 {:label "khamtanga-VMainAffPastConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -371,7 +371,7 @@
                          [:Plural :Person3 :Common "kâruŋ"]]
                  }
                 {:label "khamtanga-VMainAffPastConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -389,7 +389,7 @@
                          [:Plural :Person3 :Common "zɨyuŋ"]]
                  }
                 {:label "khamtanga-VMainAffPastConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -407,7 +407,7 @@
                          [:Plural :Person3 :Common "xʷúŋ"]]
                  }
                 {:label "khamtanga-VMainAffPastConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -425,7 +425,7 @@
                          [:Plural :Person3 :Common "fúŋ"]]
                  }
                 {:label "khamtanga-VMainAffPresConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -443,7 +443,7 @@
                          [:Plural :Person3 :Common "k’âbŋäkʷ"]]
                  }
                 {:label "khamtanga-VMainAffPresConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -461,7 +461,7 @@
                          [:Plural :Person3 :Common "qálŋäk"]]
                  }
                 {:label "khamtanga-VMainAffPresConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -479,7 +479,7 @@
                          [:Plural :Person3 :Common "kârŋäkʷ"]]
                  }
                 {:label "khamtanga-VMainAffPresConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -497,7 +497,7 @@
                          [:Plural :Person3 :Common "zɨyŋäkʷ"]]
                  }
                 {:label "khamtanga-VMainAffPresConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -515,7 +515,7 @@
                          [:Plural :Person3 :Common "xʷâŋakʷ"]]
                  }
                 {:label "khamtanga-VMainAffPresConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -533,7 +533,7 @@
                          [:Plural :Person3 :Common "fɨŋäkʷ"]]
                  }
                 {:label "khamtanga-VMainNegImprtvConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -548,7 +548,7 @@
                          [:Plural "k’äbtɨrná"]]
                  }
                 {:label "khamtanga-VMainNegImprtvConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -563,7 +563,7 @@
                          [:Plural "qaltɨrná"]]
                  }
                 {:label "khamtanga-VMainNegImprtvConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -578,7 +578,7 @@
                          [:Plural "kärtɨrná"]]
                  }
                 {:label "khamtanga-VMainNegImprtvConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -593,7 +593,7 @@
                          [:Plural "zɨytɨrná"]]
                  }
                 {:label "khamtanga-VMainNegImprtvConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -608,7 +608,7 @@
                          [:Plural "xʷɨtɨrná"]]
                  }
                 {:label "khamtanga-VMainNegImprtvConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -623,7 +623,7 @@
                          [:Plural "fɨtɨrná"]]
                  }
                 {:label "khamtanga-VMainNegJussConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -638,7 +638,7 @@
                          [:Plural :Person3 :Common "k’äbíŋ(n)a"]]
                  }
                 {:label "khamtanga-VMainNegJussConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -653,7 +653,7 @@
                          [:Plural :Person3 :Common "qalíŋ(n)a"]]
                  }
                 {:label "khamtanga-VMainNegJussConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -668,7 +668,7 @@
                          [:Plural :Person3 :Common "käríŋ(n)a"]]
                  }
                 {:label "khamtanga-VMainNegJussConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -683,7 +683,7 @@
                          [:Plural :Person3 :Common "zɨyíŋ(n)a"]]
                  }
                 {:label "khamtanga-VMainNegJussConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -698,7 +698,7 @@
                          [:Plural :Person3 :Common "xʷíŋ(n)a"]]
                  }
                 {:label "khamtanga-VMainNegJussConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -714,7 +714,7 @@
                          [:Plural :Person3 :Common "fɨŋ(n)á"]]
                  }
                 {:label "khamtanga-VMainNegPastConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -732,7 +732,7 @@
                          [:Plural :Person3 :Common "k’äbiyâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPastConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -750,7 +750,7 @@
                          [:Plural :Person3 :Common "qaliyâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPastConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -768,7 +768,7 @@
                          [:Plural :Person3 :Common "käriyâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPastConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -786,7 +786,7 @@
                          [:Plural :Person3 :Common "zɨyiyâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPastConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -804,7 +804,7 @@
                          [:Plural :Person3 :Common "xʷiyâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPastConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -822,7 +822,7 @@
                          [:Plural :Person3 :Common "fikiyâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -840,7 +840,7 @@
                          [:Plural :Person3 :Common "k’äbŋâlɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -858,7 +858,7 @@
                          [:Plural :Person3 :Common "qalŋâlɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -876,7 +876,7 @@
                          [:Plural :Person3 :Common "kärŋâlɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -894,7 +894,7 @@
                          [:Plural :Person3 :Common "zɨyŋâlɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -912,7 +912,7 @@
                          [:Plural :Person3 :Common "xʷäŋâlɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresConj5b-fi"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5b,
@@ -930,7 +930,7 @@
                          [:Plural :Person3 :Common "fɨŋâlɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresFutConj1-kab"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation1,
@@ -948,7 +948,7 @@
                          [:Plural :Person3 :Common "k’äbayâk’ʷɨm / -ák’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresFutConj2-qal"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation2,
@@ -966,7 +966,7 @@
                          [:Plural :Person3 :Common "qalayâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresFutConj3-kar"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation3,
@@ -984,7 +984,7 @@
                          [:Plural :Person3 :Common "kärayâk’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresFutConj4-ziy"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation4,
@@ -1002,7 +1002,7 @@
                          [:Plural :Person3 :Common "zɨyayak’ʷɨm"]]
                  }
                 {:label "khamtanga-VMainNegPresFutConj5a-xwa"
-                 :note "Appleyard1987 4.2.4"
+                 :note "A87s4.2.4"
                  :common {:vmorphClass :Finite
                           :clauseType :Main,
                           :conjClass :Conjugation5a,
@@ -1020,7 +1020,7 @@
                          [:Plural :Person3 :Common "xʷayâk’ʷɨm / -ák’ʷɨm"]]
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj1-kab"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation1,
@@ -1052,7 +1052,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "k’äbŋâw"]]
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj2-qal"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation2,
@@ -1084,7 +1084,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "qaldŋâw"]]
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj3-kar"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation3,
@@ -1116,7 +1116,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "kätŋâw"]]
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj4-ziy"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation4,
@@ -1148,7 +1148,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "zɨŋâw"]]
                  }
                 {:label "khamtanga-VRelObliqueAffGenConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation5a,
@@ -1180,7 +1180,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "xʷärŋâw"]]
                  }
                 {:label "khamtanga-VRelObliqueNegPastConj1-kab"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation1,
@@ -1212,7 +1212,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "k’äbiŋâw"]]
                  }
                 {:label "khamtanga-VRelObliqueNegPresFutConj1-kab"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelOblique,
                           :conjClass :Conjugation1,
@@ -1244,7 +1244,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "k’äbayŋâw"]]
                  }
                 {:label "khamtanga-VRelSubjAffGenConj1-kab"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation1,
@@ -1262,7 +1262,7 @@
                          [:Plural :Person3 :Common "k’äbak’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjAffGenConj2-qal"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation2,
@@ -1280,7 +1280,7 @@
                          [:Plural :Person3 :Common "qalâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjAffGenConj3-kar"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation3,
@@ -1298,7 +1298,7 @@
                          [:Plural :Person3 :Common "kärak’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjAffGenConj4-ziy"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation4,
@@ -1316,7 +1316,7 @@
                          [:Plural :Person3 :Common "zɨyâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjAffGenConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5a,
@@ -1334,7 +1334,7 @@
                          [:Plural :Person3 :Common "xʷâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjAffGenConj5b-fi"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5b,
@@ -1352,7 +1352,7 @@
                          [:Plural :Person3 :Common "fâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPastConj1-kab"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation1,
@@ -1370,7 +1370,7 @@
                          [:Plural :Person3 :Common "k’äbiyâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPastConj2-qal"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation2,
@@ -1388,7 +1388,7 @@
                          [:Plural :Person3 :Common "qaliyâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPastConj3-kar"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation3,
@@ -1406,7 +1406,7 @@
                          [:Plural :Person3 :Common "käriyâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPastConj4-ziy"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation4,
@@ -1424,7 +1424,7 @@
                          [:Plural :Person3 :Common "zɨqiyâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPastConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5a,
@@ -1442,7 +1442,7 @@
                          [:Plural :Person3 :Common "xʷiyâk’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj1-kab"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation1,
@@ -1460,7 +1460,7 @@
                          [:Plural :Person3 :Common "k’äbayak’ʷ / ‘ák’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj2-qal"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation2,
@@ -1478,7 +1478,7 @@
                          [:Plural :Person3 :Common "qalayâk’ʷ / -ák’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj3-kar"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation3,
@@ -1496,7 +1496,7 @@
                          [:Plural :Person3 :Common "kärayâk’ʷ / -ák’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj4-ziy"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation4,
@@ -1514,7 +1514,7 @@
                          [:Plural :Person3 :Common "zɨyayâk’ʷ / -ák’ʷ"]]
                  }
                 {:label "khamtanga-VRelSubjNegPresFutConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.1"
+                 :note "A87s4.2.5.1"
                  :common {:vmorphClass :Finite
                           :clauseType :RelSubj,
                           :conjClass :Conjugation5a,
@@ -1532,7 +1532,7 @@
                          [:Plural :Person3 :Common "xʷayâk’ʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -1550,7 +1550,7 @@
                          [:Plural :Person3 :Common "k’äbánsɨk’"]]
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -1568,7 +1568,7 @@
                          [:Plural :Person3 :Common "qalŋánsɨk’"]]
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -1586,7 +1586,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -1604,7 +1604,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCausalConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -1622,7 +1622,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1637,7 +1637,7 @@
                          ["k’äbráŋʷ / -ráŋgʷäs"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -1653,7 +1653,7 @@
                          [:Plural :Person3 :Common "k’äbŋáŋʷ / -ŋáŋgʷäs"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1668,7 +1668,7 @@
                          ["qaldáŋʷ / -dráŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -1684,7 +1684,7 @@
                          [:Plural :Person3 :Common "qalŋáŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1699,7 +1699,7 @@
                          ["zɨyráŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -1715,7 +1715,7 @@
                          [:Plural :Person3 :Common "zɨyŋáŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -1731,7 +1731,7 @@
                          [:Plural :Person3 :Common "kärŋáŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1746,7 +1746,7 @@
                          ["kätráŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1761,7 +1761,7 @@
                          ["xʷɨráŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCoTempConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -1777,7 +1777,7 @@
                          [:Plural :Person3 :Common "xʷɨrŋáŋʷ"]]
                  }
                 {:label "khamtanga-VSubAdvAffCompPastGerConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -1795,7 +1795,7 @@
                          [:Plural :Person3 :Common "k’äbɨŋ-kʷúŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -1813,7 +1813,7 @@
                          [:Plural :Person3 :Common "k’äbŋaŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -1831,7 +1831,7 @@
                          [:Plural :Person3 :Common "qalŋâŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -1849,7 +1849,7 @@
                          [:Plural :Person3 :Common "kärŋâŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -1867,7 +1867,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffComparativeConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -1885,7 +1885,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -1903,7 +1903,7 @@
                          [:Plural :Person3 :Common "k’äbŋán / -ŋân"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -1921,7 +1921,7 @@
                          [:Plural :Person3 :Common "qalŋán"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -1939,7 +1939,7 @@
                          [:Plural :Person3 :Common "kärŋán"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -1957,7 +1957,7 @@
                          [:Plural :Person3 :Common "zɨyŋán"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond1Conj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -1975,7 +1975,7 @@
                          [:Plural :Person3 :Common "xʷɨŋán"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -1993,7 +1993,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2011,7 +2011,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2029,7 +2029,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2047,7 +2047,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond2Conj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2065,7 +2065,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2083,7 +2083,7 @@
                          [:Plural :Person3 :Common "k’äbŋís̆"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2101,7 +2101,7 @@
                          [:Plural :Person3 :Common "qalŋís̆"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2119,7 +2119,7 @@
                          [:Plural :Person3 :Common "kärŋís̆"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2137,7 +2137,7 @@
                          [:Plural :Person3 :Common "zɨyŋís̆"]]
                  }
                 {:label "khamtanga-VSubAdvAffCond3Conj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2155,7 +2155,7 @@
                          [:Plural :Person3 :Common "xʷɨŋís̆"]]
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2173,7 +2173,7 @@
                          [:Plural :Person3 :Common "k’äbtɨŋás"]]
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2191,7 +2191,7 @@
                          [:Plural :Person3 :Common "qaltɨŋás"]]
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2209,7 +2209,7 @@
                          [:Plural :Person3 :Common "kärtɨŋás"]]
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2227,7 +2227,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2245,7 +2245,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffConsecutiveConj5b-fi"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5b,
@@ -2263,7 +2263,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2281,7 +2281,7 @@
                          [:Plural :Person3 :Common "k’âbɨŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2299,7 +2299,7 @@
                          [:Plural :Person3 :Common "qálɨŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2317,7 +2317,7 @@
                          [:Plural :Person3 :Common "kârɨŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2335,7 +2335,7 @@
                          [:Plural :Person3 :Common "zíyɨŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2353,7 +2353,7 @@
                          [:Plural :Person3 :Common "xʷâŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffGerundConj5b-fi"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5b,
@@ -2371,7 +2371,7 @@
                          [:Plural :Person3 :Common "fíŋ"]]
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2389,7 +2389,7 @@
                          [:Plural :Person3 :Common "k’äbŋát/-ŋât + (ɨ)grá/grâ"]]
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2407,7 +2407,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2425,7 +2425,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2443,7 +2443,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffPostTempConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2461,7 +2461,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffPresInterrogConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2479,7 +2479,7 @@
                          [:Plural :Person3 :Common "k’äbŋá"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2497,7 +2497,7 @@
                          [:Plural :Person3 :Common "k’âbtɨŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2515,7 +2515,7 @@
                          [:Plural :Person3 :Common "qáltɨŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2533,7 +2533,7 @@
                          [:Plural :Person3 :Common "kârtɨɨä"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2551,7 +2551,7 @@
                          [:Plural :Person3 :Common "zíytɨŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2569,7 +2569,7 @@
                          [:Plural :Person3 :Common "xʷâtɨŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposive2Conj5b-fi"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5b,
@@ -2587,7 +2587,7 @@
                          [:Plural :Person3 :Common "fítɨŋä"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2605,7 +2605,7 @@
                          [:Plural :Person3 :Common "k’äbŋáns"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2623,7 +2623,7 @@
                          [:Plural :Person3 :Common "qalŋáns"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2641,7 +2641,7 @@
                          [:Plural :Person3 :Common "kärŋáns"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2659,7 +2659,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffPurposiveConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2677,7 +2677,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2695,7 +2695,7 @@
                          [:Plural :Person3 :Common "k’äbŋánd / -ŋând"]]
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2713,7 +2713,7 @@
                          [:Plural :Person3 :Common "qalŋánd"]]
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2731,7 +2731,7 @@
                          [:Plural :Person3 :Common "kärŋánd"]]
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2749,7 +2749,7 @@
                          [:Plural :Person3 :Common "zɨyŋánd"]]
                  }
                 {:label "khamtanga-VSubAdvAffTemporalConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2767,7 +2767,7 @@
                          [:Plural :Person3 :Common "xʷɨrŋánd"]]
                  }
                 {:label "khamtanga-VSubAdvNegComparativeConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2785,7 +2785,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvNegComparativeConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2803,7 +2803,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvNegComparativeConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2821,7 +2821,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2839,7 +2839,7 @@
                          [:Plural :Person3 :Common "k’äbiŋâwzɨya"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2857,7 +2857,7 @@
                          [:Plural :Person3 :Common "qaliŋâwzɨya"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2875,7 +2875,7 @@
                          [:Plural :Person3 :Common "käriŋâwzɨya"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2893,7 +2893,7 @@
                          [:Plural :Person3 :Common "zɨyiŋâwzɨya"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond2Conj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -2911,7 +2911,7 @@
                          [:Plural :Person3 :Common "xʷiŋâwzɨya"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -2929,7 +2929,7 @@
                          [:Plural :Person3 :Common "k’äbíŋɨs"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -2947,7 +2947,7 @@
                          [:Plural :Person3 :Common "qalíŋɨs"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -2965,7 +2965,7 @@
                          [:Plural :Person3 :Common "käríŋɨs"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -2983,7 +2983,7 @@
                          [:Plural :Person3 :Common "zɨqíŋɨs"]]
                  }
                 {:label "khamtanga-VSubAdvNegCond3Conj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -3001,7 +3001,7 @@
                          [:Plural :Person3 :Common "xʷíŋɨs"]]
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj1-kab"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation1,
@@ -3019,7 +3019,7 @@
                          [:Plural :Person3 :Common "k’äbáyŋɨŋä"]]
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj2-qal"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation2,
@@ -3037,7 +3037,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj3-kar"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation3,
@@ -3055,7 +3055,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj4-ziy"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation4,
@@ -3073,7 +3073,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VSubAdvNegPurposiveConj5a-xwa"
-                 :note "Appleyard1987 4.2.5.2"
+                 :note "A87s4.2.5.2"
                  :common {:vmorphClass :Finite
                           :clauseType :SubAdv,
                           :conjClass :Conjugation5a,
@@ -3091,7 +3091,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "khamtanga-VAffCopExst"
-                 :note "Appleyard1987 4.2.8.2"
+                 :note "A87s4.2.8.2"
                  :common {:vmorphClass :FiniteCopula
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -3106,7 +3106,7 @@
                          [:Plural :Person3 :Common "ɨkʷúŋ"]]
                  }
                 {:label "khamtanga-VNegCopExst"
-                 :note "Appleyard1987 4.2.8.2"
+                 :note "A87s4.2.8.2"
                  :common {:vmorphClass :FiniteCopula
                           :polarity :Negative,
                           :pos :Verb,
@@ -3121,7 +3121,7 @@
                          [:Plural :Person3 :Common "ɨjâk’ʷɨm"]]
                  }
                 {:label "khamtanga-NNumeral"
-                 :note "Appleyard1987.4"
+                 :note "A87s4"
                  :common { :nmorphClass :Numeral
                           :pos :Noun}
                  :terms [[:numClass :token-note :token],
@@ -3157,7 +3157,7 @@
                          [:Ordinal "p3" "s̆áqʷäntɨrna"]]
                  }
                 {:label "khamtanga-PAdv"
-                 :note "Appleyard1987 3.3.3"
+                 :note "A87s3.3.3"
                  :common {:proClass :Adverbial
                           :pos :Pronoun}
                  :terms [[:token-note :token],
@@ -3168,7 +3168,7 @@
                          ["thus" "ɨdâs̆ / ɨntís̆"]]
                  }
                 {:label "khamtanga-PDem"
-                 :note "Appleyard1987 3.3.3"
+                 :note "A87s3.3.3"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:deixis :number :gender :token],
@@ -3180,7 +3180,7 @@
                          [:Near :Plural :Common "ɨnzáy"]]
                  }
                 {:label "khamtanga-PInd1"
-                 :note "Appleyard1987 3.3.1"
+                 :note "A87s3.3.1"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent1}
                  :terms [[:case :number :person :gender :token],
@@ -3202,7 +3202,7 @@
                          [:Subject :Plural :Person3 :Common "ŋáy"]]
                  }
                 {:label "khamtanga-PInd2"
-                 :note "Appleyard1987 3.3.1"
+                 :note "A87s3.3.1"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent2}
                  :terms [[:case :number :person :gender :token],
@@ -3257,7 +3257,7 @@
                          [:Subject :Plural :Person3 :Common "ŋáy"]]
                  }
                 {:label "khamtanga-PInterrogPers"
-                 :note "Appleyard1987 3.3.2"
+                 :note "A87s3.3.2"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Interrogative}
                  :terms [[:case :token],

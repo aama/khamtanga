@@ -1,11 +1,23 @@
 {
   "lang": "khamtanga",
-  "subfamily": "Agaw",
+  "subfamily": "cushitic agaw",
   "lgpref": "khm",
-  "datasource": "Appleyard, David. 1987. 'A grammatical sketch of Khamtanga - I'. Bulletin of the School of Oriental and African Studies 50, 241-266; II 470-507.; abbrev. A87",
+  "datasource": "Appleyard, David. 1987. 'A grammatical sketch of Khamtanga - I'. Bulletin of the School of Oriental and African Studies 50, 241-266; II 470-507.; abbrev. DA1987",
   "datasourceNote": "",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i ɨ ä a u"},
+    "Prosody": {
+      "Type": "Cf. DA1987p250 'The position of the accent in Khamtanga is largely a question of morphology. Consequently, nouns and verbs, for instance, require different state- ments. The details are not entirely clear, but will be introduced within appropriate sections in the morphological description'",
+      "Accent": "'v́' Accented; 'v' uUnaccented"}},
   "geodemoURL": "http://www.ethnologue.com/language/xan",
-  "geodemoTXT": "Varieties and subdialects of Agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab.",
+  "geodemoTXT": "Varieties and subdialects of cushitic agaw (or Central) Cushitic language Khamtanga is spoken in the North Amhara region, by the Chamir people. Variety described by Appleyard 1987ab.",
   "schemata": {
   "case": [
     "Absolutive",
@@ -204,7 +216,7 @@
   },
   {
     "label": "khm-PronounAdverbial",
-    "note": "A87s3.3.3",
+    "note": "DA1987s3.3.3",
     "common": {
       "pos": "Pronoun",
       "proClass": "Adverbial"
@@ -220,7 +232,7 @@
   },
   {
     "label": "khm-PronounDemonstrative",
-    "note": "A87s3.3.3",
+    "note": "DA1987s3.3.3",
     "common": {
       "pos": "Pronoun",
       "proClass": "Demonstrative"
@@ -237,7 +249,7 @@
   },
   {
     "label": "khm-PronounIndependent1",
-    "note": "A87s3.3.1",
+    "note": "DA1987s3.3.1",
     "common": {
       "pos": "Pronoun",
       "proClass": "Independent1"
@@ -264,7 +276,7 @@
   },
   {
     "label": "khm-PronounIndependent2",
-    "note": "A87s3.3.1",
+    "note": "DA1987s3.3.1",
     "common": {
       "pos": "Pronoun",
       "proClass": "Independent2"
@@ -324,7 +336,7 @@
   },
   {
     "label": "khm-PronounInterrogative",
-    "note": "A87s3.3.2",
+    "note": "DA1987s3.3.2",
     "common": {
       "pos": "Pronoun",
       "proClass": "Interrogative"
@@ -341,7 +353,7 @@
   },
   {
     "label": "khm-Verb-Copula-CopulaExistAffirmative",
-    "note": "A87s4.2.8.2",
+    "note": "DA1987s4.2.8.2",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -361,7 +373,7 @@
   },
   {
     "label": "khm-Verb-Copula-CopulaExistNegative",
-    "note": "A87s4.2.8.2",
+    "note": "DA1987s4.2.8.2",
     "common": {
       "polarity": "Negative",
       "pos": "Verb",
@@ -381,7 +393,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-CausalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -403,7 +415,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -419,7 +431,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -439,7 +451,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-CompPastGerAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -461,7 +473,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-ComparativeAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -483,7 +495,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-ComparativeNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -505,7 +517,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-Conditional1Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -527,7 +539,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-Conditional2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -549,7 +561,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-Conditional2Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -571,7 +583,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-Conditional3Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -593,7 +605,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-Conditional3Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -615,7 +627,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-ConsecutiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -637,7 +649,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-FutureAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -659,7 +671,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation1",
@@ -695,7 +707,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation1",
@@ -717,7 +729,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-GerundAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -739,7 +751,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-ImperativeAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -757,7 +769,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-ImperativeNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -775,7 +787,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-JussiveAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -795,7 +807,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-JussiveNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -814,7 +826,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PastAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -836,7 +848,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PastNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -858,7 +870,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PastNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation1",
@@ -894,7 +906,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PastNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation1",
@@ -916,7 +928,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PastTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -938,7 +950,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PresentAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -960,7 +972,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PresentFutureNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -982,7 +994,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PresentFutureNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation1",
@@ -1018,7 +1030,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PresentFutureNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation1",
@@ -1040,7 +1052,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PresentInterrogAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -1062,7 +1074,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PresentNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation1",
@@ -1084,7 +1096,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-Purposive2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -1106,7 +1118,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PurposiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -1128,7 +1140,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-PurposiveNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -1150,7 +1162,7 @@
   },
   {
     "label": "khm-VerbConjugation1-kab-TemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation1",
@@ -1172,7 +1184,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-CausalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1194,7 +1206,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1210,7 +1222,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1230,7 +1242,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-ComparativeAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1252,7 +1264,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-ComparativeNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1274,7 +1286,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-Conditional1Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1296,7 +1308,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-Conditional2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1318,7 +1330,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-Conditional2Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1340,7 +1352,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-Conditional3Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1362,7 +1374,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-Conditional3Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1384,7 +1396,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-ConsecutiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1406,7 +1418,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-FutureAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1428,7 +1440,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation2",
@@ -1464,7 +1476,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation2",
@@ -1486,7 +1498,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-GerundAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1508,7 +1520,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-ImperativeAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1526,7 +1538,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-ImperativeNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1544,7 +1556,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-JussiveAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1564,7 +1576,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-JussiveNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1583,7 +1595,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PastAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1605,7 +1617,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PastNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1627,7 +1639,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PastNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation2",
@@ -1649,7 +1661,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PastTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1671,7 +1683,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PresentAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1693,7 +1705,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PresentFutureNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1715,7 +1727,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PresentFutureNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation2",
@@ -1737,7 +1749,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PresentNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation2",
@@ -1759,7 +1771,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-Purposive2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1781,7 +1793,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PurposiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1803,7 +1815,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-PurposiveNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1825,7 +1837,7 @@
   },
   {
     "label": "khm-VerbConjugation2-qal-TemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation2",
@@ -1847,7 +1859,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-CausalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1869,7 +1881,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1885,7 +1897,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1905,7 +1917,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-ComparativeAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1927,7 +1939,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-ComparativeNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1949,7 +1961,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-Conditional1Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1971,7 +1983,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-Conditional2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -1993,7 +2005,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-Conditional2Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2015,7 +2027,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-Conditional3Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2037,7 +2049,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-Conditional3Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2059,7 +2071,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-ConsecutiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2081,7 +2093,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-FutureAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2103,7 +2115,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation3",
@@ -2139,7 +2151,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation3",
@@ -2161,7 +2173,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-GerundAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2183,7 +2195,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-ImperativeAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2201,7 +2213,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-ImperativeNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2219,7 +2231,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-JussiveAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2239,7 +2251,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-JussiveNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2258,7 +2270,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PastAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2280,7 +2292,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PastNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2302,7 +2314,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PastNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation3",
@@ -2324,7 +2336,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PastTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2346,7 +2358,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PresentAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2368,7 +2380,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PresentFutureNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2390,7 +2402,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PresentFutureNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation3",
@@ -2412,7 +2424,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PresentNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation3",
@@ -2434,7 +2446,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-Purposive2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2456,7 +2468,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PurposiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2478,7 +2490,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-PurposiveNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2500,7 +2512,7 @@
   },
   {
     "label": "khm-VerbConjugation3-kar-TemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation3",
@@ -2522,7 +2534,7 @@
   },
   {
     "label": "khm-VerbConjugation4-kar-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2538,7 +2550,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-CausalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2560,7 +2572,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2580,7 +2592,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-ComparativeAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2602,7 +2614,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-Conditional1Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2624,7 +2636,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-Conditional2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2646,7 +2658,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-Conditional2Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2668,7 +2680,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-Conditional3Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2690,7 +2702,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-Conditional3Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2712,7 +2724,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-ConsecutiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2734,7 +2746,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-FutureAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2756,7 +2768,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation4",
@@ -2792,7 +2804,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation4",
@@ -2814,7 +2826,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-GerundAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2836,7 +2848,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-ImperativeAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2854,7 +2866,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-ImperativeNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2872,7 +2884,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-JussiveAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2892,7 +2904,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-JussiveNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2911,7 +2923,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PastAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2933,7 +2945,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PastNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -2955,7 +2967,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PastNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation4",
@@ -2977,7 +2989,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PastTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -2999,7 +3011,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PresentAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -3021,7 +3033,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PresentFutureNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -3043,7 +3055,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PresentFutureNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation4",
@@ -3065,7 +3077,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PresentNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation4",
@@ -3087,7 +3099,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-Purposive2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -3109,7 +3121,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PurposiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -3131,7 +3143,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-PurposiveNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -3153,7 +3165,7 @@
   },
   {
     "label": "khm-VerbConjugation4-ziy-TemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation4",
@@ -3175,7 +3187,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-CausalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3197,7 +3209,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3213,7 +3225,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-CoTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3233,7 +3245,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-ComparativeAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3255,7 +3267,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-Conditional1Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3277,7 +3289,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-Conditional2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3299,7 +3311,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-Conditional2Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3321,7 +3333,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-Conditional3Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3343,7 +3355,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-Conditional3Negative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3365,7 +3377,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-ConsecutiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3387,7 +3399,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-FutureAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3409,7 +3421,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelOblique",
       "conjClass": "Conjugation5a",
@@ -3445,7 +3457,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation5a",
@@ -3467,7 +3479,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-GerundAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3489,7 +3501,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-ImperativeAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3507,7 +3519,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-ImperativeNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3525,7 +3537,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-JussiveAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3545,7 +3557,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-JussiveNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3564,7 +3576,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PastAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3586,7 +3598,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PastNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3608,7 +3620,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PastNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation5a",
@@ -3630,7 +3642,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PastTemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3652,7 +3664,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PresentAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3674,7 +3686,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PresentFutureNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3696,7 +3708,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PresentFutureNegative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation5a",
@@ -3718,7 +3730,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PresentNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5a",
@@ -3740,7 +3752,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-Purposive2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3762,7 +3774,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PurposiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3784,7 +3796,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-PurposiveNegative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3806,7 +3818,7 @@
   },
   {
     "label": "khm-VerbConjugation5a-xwa-TemporalAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5a",
@@ -3828,7 +3840,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-ConsecutiveAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5b",
@@ -3850,7 +3862,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-FutureAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -3872,7 +3884,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-GeneralAffirmative",
-    "note": "A87s4.2.5.1",
+    "note": "DA1987s4.2.5.1",
     "common": {
       "clauseType": "RelSubj",
       "conjClass": "Conjugation5b",
@@ -3894,7 +3906,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-GerundAffirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5b",
@@ -3916,7 +3928,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-ImperativeAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -3934,7 +3946,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-ImperativeNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -3952,7 +3964,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-JussiveNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -3972,7 +3984,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-PastAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -3994,7 +4006,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-PastNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -4016,7 +4028,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-PresentAffirmative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -4038,7 +4050,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-PresentNegative",
-    "note": "A87s4.2.4",
+    "note": "DA1987s4.2.4",
     "common": {
       "clauseType": "Main",
       "conjClass": "Conjugation5b",
@@ -4060,7 +4072,7 @@
   },
   {
     "label": "khm-VerbConjugation5b-fi-Purposive2Affirmative",
-    "note": "A87s4.2.5.2",
+    "note": "DA1987s4.2.5.2",
     "common": {
       "clauseType": "SubAdv",
       "conjClass": "Conjugation5b",
